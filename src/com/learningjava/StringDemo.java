@@ -7,7 +7,8 @@ public class StringDemo {
         System.out.println();
 
         String s = " Hello ";
-        System.out.println(s.length());
-        System.out.print
+        System.out.println("s.length() ---:"+s.length());
+        System.out.println("s.contains (\"he\"): "+ s.contains("He"));
+        System.out.println("s.isEmpty: "+ s.isEmpty());
     }
 }
