@@ -8,6 +8,5 @@ public class StringDemo {
 
         String s = " Hello ";
         System.out.println(s.length());
-        System.out.print
     }
 }
