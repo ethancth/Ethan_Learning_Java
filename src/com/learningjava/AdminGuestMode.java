@@ -6,7 +6,8 @@ import java.lang.String;
  */
 public class AdminGuestMode {
     public static void main(String[] args) {
-        String inputArguments = String.join(",", args);
+        //String inputArguments = dString.join(",", args);
+        String inputArguments = "string;";
         String adminFlag = "--admin";
         String guestFlag = "--guest";
         if (inputArguments.contains(adminFlag) && inputArguments.contains(guestFlag)) {
